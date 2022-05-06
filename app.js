@@ -148,7 +148,7 @@ async function showDetails(btn)
                 <span class="title-text">Manufacturer:</span> </br> ${manufacturer} </br> </br>
                 <span class="title-text">Crew:</span> </br> ${crew} </br> </br>
                 <span class="title-text">Passengers:</span> </br> ${passengers} </br> </br>
-                <span class="title-text">Films:</span> </br> </br>`;
+                <span class="title-text">Films:</span> </br>`;
 
      //sending request to get title of movies and adding them to text
     for (let i = 0; i < filmsURLs.length; i++)
